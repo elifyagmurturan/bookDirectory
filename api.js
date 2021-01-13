@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const books = require('./books_dumb');
+const books = require('./books_list');
 
 let booksDirectory = books;
 router.get('/books', function(req, res) {
